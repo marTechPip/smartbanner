@@ -1,6 +1,6 @@
 .author,
 .price {
-  font-size: 14px;
+  font-size: 11px;
 }
 
 .close-button {
@@ -10,10 +10,11 @@
   margin: 0;
   position: absolute;
   text-align: center;
-  top: calc(50% - 11px);
+  top: calc(50% - 15px);
   width: 12px;
   color: #767676;
   text-decoration: none;
+  font-weight: 100;
 }
 
 .get-button {
@@ -44,7 +45,7 @@
 
 .smartbanner {
   background: #f3f3f3;
-  font-family: Helvetica,sans,sans-serif;
+  font-family: 'Helvetica,sans,sans-serif';
   height: 84px;
   left: 0;
   overflow-x: hidden;
@@ -63,15 +64,26 @@
   display: flex;
   overflow-y: hidden;
   width: 60%;
-  height: 54px;
   margin-left: 104px;
   flex-direction: column;
   flex: 1;
+  gap: 0;
+  line-height: normal;
+}
+
+.title, .author, .price {
+  margin: 0; 
+  padding: 0; 
 }
 
 .title {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 700;
   margin-bottom: 5px;
 }
 
+@media (min-width: 768px) {
+  #smartbanner {
+      display: none;
+  }
+}
