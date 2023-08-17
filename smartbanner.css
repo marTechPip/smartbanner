@@ -47,7 +47,7 @@
 
 .smartbanner {
   background: #f3f3f3;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif !important;
   height: 84px;
   overflow-x: hidden;
   width: 100%;
@@ -62,7 +62,7 @@
 }
 
 .smartbanner-info {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif !important;
   align-items: flex-start;
   color: #000;
   display: flex;
