@@ -62,6 +62,7 @@
 }
 
 .smartbanner-info {
+  font-family: 'Roboto', sans-serif;
   align-items: flex-start;
   color: #000;
   display: flex;
