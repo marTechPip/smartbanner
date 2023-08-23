@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
 
-.author,
-.price {
+.smartbanner .author,
+.smartbanner .price {
   font-size: 11px;
 }
 
-.close-button {
+.smartbanner .close-button {
   border: 0;
   display: block;
   left: 9px;
@@ -19,7 +19,7 @@
   font-weight: 100;
 }
 
-.get-button {
+.smartbanner .get-button {
   background: #f3f3f3;
   border-radius: 5px;
   color: #1474fc;
@@ -35,7 +35,7 @@
   z-index: 5001;
 }
 
-.icon {
+.smartbanner .icon {
   width: 64px;
   height: 64px;
   background-size: 64px 64px;
@@ -75,12 +75,12 @@
   line-height: normal;
 }
 
-.title, .author, .price {
+.smartbanner .title, .smartbanner .author, .smartbanner .price {
   margin: 0; 
   padding: 0; 
 }
 
-.title {
+.smartbanner .title {
   font-size: 13px;
   font-weight: 700;
   margin-bottom: 5px;
